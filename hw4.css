@@ -1,0 +1,173 @@
+
+body {
+	background-image: url(fon.png);
+    background-repeat: repeat;
+	height: 1000px;
+}
+.container {
+	position: relative;
+	box-sizing: border-box;
+	width: 1001px;
+	height: 930px;
+	background: white;
+	margin: 0 auto;
+}
+/* HEADER*/
+.header{
+	width: 1001px;
+	height: 175px;
+	margin: 0 auto;
+}
+.header a{color: #128aa7;}
+.countries {
+	position: relative;
+	width: 1001px;
+	height: 175px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.logo{
+	position: absolute;
+	float: left;
+	width: 316px;
+	height: 175px;
+}
+.box1{
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	left: 600px;
+	bottom: 10px;
+	font-size: 12px;
+	list-style: none;
+	padding-left: 150px;
+	}
+	
+
+.box2{
+	position: absolute;
+	top: 100px;
+	right: 170px;
+	left: 450px;
+	bottom: 10px;
+}
+.box3{
+	position: absolute;
+	top: 135px; 
+	right: 150px;
+	left: 410px;
+	bottom: 10px;
+	z-index: 1;
+	}
+
+.box3 li{
+	display: inline-block;
+	font-size: 17px;
+}
+.pic{
+	position: absolute;
+	right: 0;
+	left: 0;
+	}
+.dropdown{
+	float: left;
+	    height: 40px;
+        border: 1px solid #000;
+		background-color: #333333;
+		position: absolute;
+		top: 390px;
+		right: 0;
+		left: 0;
+		}
+		
+		.dropdown a {
+	text-decoration: none;
+    color: white;
+	font-size: 15px;
+	margin-right: 5px;
+	}
+		
+ul.dropdown li {
+	position: relative;
+ width: 140px; 
+ }
+ ul.dropdown,
+ ul.dropdown-inside {
+ list-style-type: none;
+ padding: 0;
+ 
+ }
+ ul.dropdown-inside {
+ position: absolute;
+ left: 0;
+ top: 100%;
+ display: none;
+ z-index: 100;
+}
+ ul.dropdown li.dropdown-top {
+ display: inline;
+ float: left;
+ margin: 0 1px 0 0;
+ }
+ ul.dropdown li.dropdown-top a {
+ padding: 3px 10px 4px;
+ display: block;
+ }
+ ul.dropdown a.dropdown-top { background: #333333; }
+ ul.dropdown a.dropdown-top:hover { padding: 2px 10px 5px; }
+ ul.dropdown li.dropdown-top:hover .dropdown-inside {
+ display: block;
+ left: 0;
+ }
+ ul.dropdown .dropdown-inside { background: #333333; }
+ ul.dropdown .dropdown-inside a:hover { background: #333333; }
+ 
+	
+.cont {
+	font-size: 0;
+	margin-top: 269px;
+	width: 1001px;
+	
+	
+}
+
+.first{
+	background: #edeff0;
+	height: 520px;
+	width: 20%;
+	font-size: 15px;
+	display: inline-block;
+    vertical-align: top;
+	
+	text-align: center;
+}
+.second{
+	background: white;
+	height: 520px;
+	width: 60%;
+	display: inline-block;
+	
+}
+.third{
+	background: #edeff0;
+	height: 520px;
+	width: 20%;
+	font-size: 15px;
+	display: inline-block;
+    vertical-align: top;
+	display: inline-block;
+	
+	text-align: center;
+	}
+
+ 
+
+
+	.footer{
+    position: absolute;
+    width: 100%;	
+	clear: both;
+	text-align: center;
+	margin-top: 50px;
+	}
+ 
